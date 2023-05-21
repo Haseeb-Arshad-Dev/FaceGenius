@@ -14,7 +14,13 @@ This project is a face recognition system that can identify faces in images and 
    - Download the Boost library from the Boost website: [https://www.boost.org/](https://www.boost.org/)
    - Extract the downloaded Boost library to a local directory.
 
-3. Install required Python packages:
+3. Install Virtual Environment
+      ```
+      python -m venv venv
+      venv\Scripts\activate
+      ```
+
+4. Install required Python packages:
    - Open a command prompt and navigate to the project directory.
    - Run the following command to install the required packages:
      ```
@@ -22,11 +28,11 @@ This project is a face recognition system that can identify faces in images and 
      pip install scikit-learn matplotlib tqdm opencv-python dlib
      ```
 
-4. Download the shape predictor file:
+5. Download the shape predictor file:
    - Download the shape predictor file (`shape_predictor_68_face_landmarks.dat`) from the dlib website: [http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
    - Extract the downloaded file and place it in the project directory.
 
-5. Run the project:
+6. Run the project:
    - Modify the code in the project files as needed for your specific use case.
    - Run the main script to start the face recognition system.
 
@@ -46,6 +52,43 @@ This project is a face recognition system that can identify faces in images and 
      brew install boost
      ```
 
+3. Install Virtual Environment
+      ```
+      python3 -m venv venv
+      source venv/bin/activate
+      ```
+
+4. Install required Python packages:
+   - Open a terminal and navigate to the project directory.
+   - Run the following command to install the required packages:
+     ```
+     pip install --upgrade pip
+     pip install scikit-learn matplotlib tqdm opencv-python dlib
+     ```
+
+5. Download the shape predictor file:
+   - Download the shape predictor file (`shape_predictor_68_face_landmarks.dat`) from the dlib website: [http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
+   - Extract the downloaded file and place it in the project directory.
+
+6. Run the project:
+   - Modify the code in the project files as needed for your specific use case.
+   - Run the main script to start the face recognition system.
+
+### Ubuntu
+
+1. Install Boost:
+   - Open a terminal and run the following command to install Boost:
+     ```
+     sudo apt-get install libboost-all-dev
+     ```
+
+     
+2. Install Virtual Environment
+      ```
+      python3 -m venv venv
+      source venv/bin/activate
+      ```
+
 3. Install required Python packages:
    - Open a terminal and navigate to the project directory.
    - Run the following command to install the required packages:
@@ -59,30 +102,6 @@ This project is a face recognition system that can identify faces in images and 
    - Extract the downloaded file and place it in the project directory.
 
 5. Run the project:
-   - Modify the code in the project files as needed for your specific use case.
-   - Run the main script to start the face recognition system.
-
-### Ubuntu
-
-1. Install Boost:
-   - Open a terminal and run the following command to install Boost:
-     ```
-     sudo apt-get install libboost-all-dev
-     ```
-
-2. Install required Python packages:
-   - Open a terminal and navigate to the project directory.
-   - Run the following command to install the required packages:
-     ```
-     pip install --upgrade pip
-     pip install scikit-learn matplotlib tqdm opencv-python dlib
-     ```
-
-3. Download the shape predictor file:
-   - Download the shape predictor file (`shape_predictor_68_face_landmarks.dat`) from the dlib website: [http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
-   - Extract the downloaded file and place it in the project directory.
-
-4. Run the project:
    - Modify the code in the project files as needed for your specific use case.
    - Run the main script to start the face recognition system.
 
